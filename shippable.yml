@@ -9,4 +9,4 @@ build:
    ci:
     - mvn package
     - nohup sh target/bin/webapp &
-    - wget http://127.0.0.1:8080
+    - wget http://localhost:8080
