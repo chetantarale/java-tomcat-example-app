@@ -9,5 +9,6 @@ build:
    ci:
     - mvn package
     - nohup sh target/bin/webapp &
-    - cat target/bin/webapp/nohup.out
+    - pwd
+    - find . -name nohup.out
     - wget http://localhost
